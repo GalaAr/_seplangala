@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NOTICIAS">
+    <Key>
+      <PropertyRef Name="ID_NOTICIA" />
+    </Key>
+    <Property Name="FECHA" Type="DateTime" Nullable="false" />
+    <Property Name="EVENTO" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TITULO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ENCABEZADO" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_PUBLICACION" Type="DateTime" Nullable="false" />
+    <Property Name="RESPONSABLE" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EVENTO2" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="BALAZO1" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ID_NOTICIA" Type="Int16" Nullable="false" />
+    <Property Name="ID_FOTO" Type="Int16" />
+    <Property Name="VER_COPLADENAY" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="VER_SEPLAN" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="VER_COCYTEN" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="VER_FOMIX" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="VER_INTRANET" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="BALAZO2" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="BALAZO3" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="LUGAR" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="PRIORIDAD" Type="Byte" />
+    <Property Name="EVENTO3" Type="String" MaxLength="3000" FixedLength="false" Unicode="false" />
+    <Property Name="SOLO_MEDIOS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="PARTICIPANTES" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="RESENIA" Type="String" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Name="VER_DIF" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="USUARIO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="EVENTO4" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_PRINCIPAL" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_PRINCIPAL" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_2" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_3" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_3" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_4" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_4" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_5" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_5" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_6" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_6" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_7" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_7" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_8" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_8" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_9" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_9" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="FOTO_10" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="PIE_FOTO_10" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="NoticiasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NOTICIAS" EntityType="Self.NOTICIAS" />
+  </EntityContainer>
+</Schema>

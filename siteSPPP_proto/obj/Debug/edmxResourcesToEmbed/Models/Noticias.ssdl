@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="12.1" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NOTICIAS">
+    <Key>
+      <PropertyRef Name="ID_NOTICIA" />
+    </Key>
+    <Property Name="FECHA" Type="date" Nullable="false" />
+    <Property Name="EVENTO" Type="varchar2" MaxLength="4000" Nullable="false" />
+    <Property Name="TITULO" Type="varchar2" MaxLength="500" Nullable="false" />
+    <Property Name="ENCABEZADO" Type="varchar2" MaxLength="1000" />
+    <Property Name="FECHA_PUBLICACION" Type="date" Nullable="false" />
+    <Property Name="RESPONSABLE" Type="varchar2" MaxLength="150" Nullable="false" />
+    <Property Name="EVENTO2" Type="varchar2" MaxLength="4000" />
+    <Property Name="BALAZO1" Type="varchar2" MaxLength="200" />
+    <Property Name="ID_NOTICIA" Type="number" Precision="5" Scale="0" Nullable="false" />
+    <Property Name="ID_FOTO" Type="number" Precision="5" Scale="0" />
+    <Property Name="VER_COPLADENAY" Type="varchar2" MaxLength="1" />
+    <Property Name="VER_SEPLAN" Type="varchar2" MaxLength="1" />
+    <Property Name="VER_COCYTEN" Type="varchar2" MaxLength="1" />
+    <Property Name="VER_FOMIX" Type="varchar2" MaxLength="1" />
+    <Property Name="VER_INTRANET" Type="varchar2" MaxLength="1" />
+    <Property Name="BALAZO2" Type="varchar2" MaxLength="200" />
+    <Property Name="BALAZO3" Type="varchar2" MaxLength="200" />
+    <Property Name="LUGAR" Type="varchar2" MaxLength="150" />
+    <Property Name="PRIORIDAD" Type="number" Precision="2" Scale="0" />
+    <Property Name="EVENTO3" Type="varchar2" MaxLength="3000" />
+    <Property Name="SOLO_MEDIOS" Type="varchar2" MaxLength="1" />
+    <Property Name="PARTICIPANTES" Type="varchar2" MaxLength="300" />
+    <Property Name="RESENIA" Type="varchar2" MaxLength="400" />
+    <Property Name="VER_DIF" Type="varchar2" MaxLength="1" />
+    <Property Name="USUARIO" Type="varchar2" MaxLength="255" />
+    <Property Name="EVENTO4" Type="varchar2" MaxLength="4000" />
+    <Property Name="FOTO_PRINCIPAL" Type="blob" />
+    <Property Name="PIE_FOTO_PRINCIPAL" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_2" Type="blob" />
+    <Property Name="PIE_FOTO_2" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_3" Type="blob" />
+    <Property Name="PIE_FOTO_3" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_4" Type="blob" />
+    <Property Name="PIE_FOTO_4" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_5" Type="blob" />
+    <Property Name="PIE_FOTO_5" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_6" Type="blob" />
+    <Property Name="PIE_FOTO_6" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_7" Type="blob" />
+    <Property Name="PIE_FOTO_7" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_8" Type="blob" />
+    <Property Name="PIE_FOTO_8" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_9" Type="blob" />
+    <Property Name="PIE_FOTO_9" Type="varchar2" MaxLength="300" />
+    <Property Name="FOTO_10" Type="blob" />
+    <Property Name="PIE_FOTO_10" Type="varchar2" MaxLength="300" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="NOTICIAS" EntityType="Self.NOTICIAS" Schema="SEPLAN" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="NoticiasEntities">
+    <EntitySetMapping Name="NOTICIAS">
+      <EntityTypeMapping TypeName="Model.NOTICIAS">
+        <MappingFragment StoreEntitySet="NOTICIAS">
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+          <ScalarProperty Name="EVENTO" ColumnName="EVENTO" />
+          <ScalarProperty Name="TITULO" ColumnName="TITULO" />
+          <ScalarProperty Name="ENCABEZADO" ColumnName="ENCABEZADO" />
+          <ScalarProperty Name="FECHA_PUBLICACION" ColumnName="FECHA_PUBLICACION" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+          <ScalarProperty Name="EVENTO2" ColumnName="EVENTO2" />
+          <ScalarProperty Name="BALAZO1" ColumnName="BALAZO1" />
+          <ScalarProperty Name="ID_NOTICIA" ColumnName="ID_NOTICIA" />
+          <ScalarProperty Name="ID_FOTO" ColumnName="ID_FOTO" />
+          <ScalarProperty Name="VER_COPLADENAY" ColumnName="VER_COPLADENAY" />
+          <ScalarProperty Name="VER_SEPLAN" ColumnName="VER_SEPLAN" />
+          <ScalarProperty Name="VER_COCYTEN" ColumnName="VER_COCYTEN" />
+          <ScalarProperty Name="VER_FOMIX" ColumnName="VER_FOMIX" />
+          <ScalarProperty Name="VER_INTRANET" ColumnName="VER_INTRANET" />
+          <ScalarProperty Name="BALAZO2" ColumnName="BALAZO2" />
+          <ScalarProperty Name="BALAZO3" ColumnName="BALAZO3" />
+          <ScalarProperty Name="LUGAR" ColumnName="LUGAR" />
+          <ScalarProperty Name="PRIORIDAD" ColumnName="PRIORIDAD" />
+          <ScalarProperty Name="EVENTO3" ColumnName="EVENTO3" />
+          <ScalarProperty Name="SOLO_MEDIOS" ColumnName="SOLO_MEDIOS" />
+          <ScalarProperty Name="PARTICIPANTES" ColumnName="PARTICIPANTES" />
+          <ScalarProperty Name="RESENIA" ColumnName="RESENIA" />
+          <ScalarProperty Name="VER_DIF" ColumnName="VER_DIF" />
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="EVENTO4" ColumnName="EVENTO4" />
+          <ScalarProperty Name="FOTO_PRINCIPAL" ColumnName="FOTO_PRINCIPAL" />
+          <ScalarProperty Name="PIE_FOTO_PRINCIPAL" ColumnName="PIE_FOTO_PRINCIPAL" />
+          <ScalarProperty Name="FOTO_2" ColumnName="FOTO_2" />
+          <ScalarProperty Name="PIE_FOTO_2" ColumnName="PIE_FOTO_2" />
+          <ScalarProperty Name="FOTO_3" ColumnName="FOTO_3" />
+          <ScalarProperty Name="PIE_FOTO_3" ColumnName="PIE_FOTO_3" />
+          <ScalarProperty Name="FOTO_4" ColumnName="FOTO_4" />
+          <ScalarProperty Name="PIE_FOTO_4" ColumnName="PIE_FOTO_4" />
+          <ScalarProperty Name="FOTO_5" ColumnName="FOTO_5" />
+          <ScalarProperty Name="PIE_FOTO_5" ColumnName="PIE_FOTO_5" />
+          <ScalarProperty Name="FOTO_6" ColumnName="FOTO_6" />
+          <ScalarProperty Name="PIE_FOTO_6" ColumnName="PIE_FOTO_6" />
+          <ScalarProperty Name="FOTO_7" ColumnName="FOTO_7" />
+          <ScalarProperty Name="PIE_FOTO_7" ColumnName="PIE_FOTO_7" />
+          <ScalarProperty Name="FOTO_8" ColumnName="FOTO_8" />
+          <ScalarProperty Name="PIE_FOTO_8" ColumnName="PIE_FOTO_8" />
+          <ScalarProperty Name="FOTO_9" ColumnName="FOTO_9" />
+          <ScalarProperty Name="PIE_FOTO_9" ColumnName="PIE_FOTO_9" />
+          <ScalarProperty Name="FOTO_10" ColumnName="FOTO_10" />
+          <ScalarProperty Name="PIE_FOTO_10" ColumnName="PIE_FOTO_10" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
